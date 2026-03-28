@@ -13,7 +13,7 @@ import io.jsonwebtoken.security.Keys;
 @Component
 public class JwtUtil {
 
-    private static final String SECRET = "ticket-booking-system-secret-key-2024-very-long-key";
+    private static final String SECRET = "ticket-booking-system-secret-key-2026-very-long-key";
     private static final long EXPIRATION = 1000 * 60 * 60 * 12; // 12 hours
 
     private SecretKey getKey() {
