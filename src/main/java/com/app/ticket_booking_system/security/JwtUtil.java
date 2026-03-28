@@ -14,7 +14,7 @@ import io.jsonwebtoken.security.Keys;
 public class JwtUtil {
 
     private static final String SECRET = "ticket-booking-system-secret-key-2024-very-long-key";
-    private static final long EXPIRATION = 1000 * 60 * 60 * 24; // 24 hours
+    private static final long EXPIRATION = 1000 * 60 * 60 * 12; // 12 hours
 
     private SecretKey getKey() {
         return Keys.hmacShaKeyFor(SECRET.getBytes());
