@@ -4,7 +4,7 @@ services:
     image: postgres:15
     container_name: ticket_postgres
     environment:
-      POSTGRES_DB: ticket_db
+      POSTGRES_DB: ticket_booking_system
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
     ports:
